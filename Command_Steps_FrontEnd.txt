@@ -1,0 +1,59 @@
+Microsoft Windows [Version 10.0.19045.4598]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>cd Accredian-frontend-task
+
+C:\Users\hp\Accredian-frontend-task>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 865A-5382
+
+ Directory of C:\Users\hp\Accredian-frontend-task
+
+11-07-2024  17:38    <DIR>          .
+11-07-2024  17:38    <DIR>          ..
+11-07-2024  22:27    <DIR>          node_modules
+11-07-2024  22:27           809,821 package-lock.json
+11-07-2024  17:39             1,075 package.json
+11-07-2024  17:26               173 postcss.config.js
+10-07-2024  22:23    <DIR>          public
+11-07-2024  16:33    <DIR>          src
+               3 File(s)        811,069 bytes
+               5 Dir(s)  142,527,778,816 bytes free
+
+C:\Users\hp\Accredian-frontend-task>npm install
+
+up to date, audited 1746 packages in 11s
+
+273 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\hp\Accredian-frontend-task>npm start
+
+> refer-and-earn@0.1.0 start
+> react-scripts start
+
+(node:6552) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:6552) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Compiled successfully!
+
+You can now view refer-and-earn in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.50.152:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+
+Link - http://localhost:3000
